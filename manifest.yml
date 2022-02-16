@@ -1,0 +1,6 @@
+applications:
+  - name: lukasz-app
+    memory: 1G
+    disk_quota: 500mb
+    buildpacks:
+      - https://github.com/cloudfoundry/php-buildpack.git#v4.4.34
